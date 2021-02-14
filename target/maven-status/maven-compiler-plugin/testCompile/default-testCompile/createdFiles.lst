@@ -1,0 +1,7 @@
+Test\TaskII.class
+TestCase\APIUsers.class
+TestCase\Login.class
+TestCase\Withdraw.class
+TestCase\Deposit.class
+TestCase\Transaction.class
+Test\TaskI.class

@@ -1,0 +1,16 @@
+
+{
+	"Transaction": {
+		"Deposit": {
+			"CustomerName": "Harry Potter",
+			"AccountNumber": "1004",
+			"Amount": "31459"
+		},
+		"Withdraw": {
+			"CustomerName": "Harry Potter",
+			"AccountNumber": "1004",
+			"Amount": "31459"
+		}
+
+	}
+}

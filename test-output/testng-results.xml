@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91639" started-at="2021-02-14T21:02:02Z" finished-at="2021-02-14T21:03:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="91639" started-at="2021-02-14T21:02:02Z" finished-at="2021-02-14T21:03:33Z">
+      <class name="Test.TaskII">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Test.TaskII@1e397ed7]" name="setUpClass" is-config="true" duration-ms="159" started-at="2021-02-14T21:02:01Z" finished-at="2021-02-14T21:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:Test.TaskII@1e397ed7]" name="setUpTest" is-config="true" duration-ms="6813" started-at="2021-02-14T21:02:02Z" finished-at="2021-02-14T21:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:Test.TaskII@1e397ed7]" name="Test1" duration-ms="20087" started-at="2021-02-14T21:02:08Z" finished-at="2021-02-14T21:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2()[pri:2, instance:Test.TaskII@1e397ed7]" name="Test2" duration-ms="4673" started-at="2021-02-14T21:02:29Z" finished-at="2021-02-14T21:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:Test.TaskII@1e397ed7]" name="Test3" duration-ms="15130" started-at="2021-02-14T21:02:34Z" data-provider="getTestData" finished-at="2021-02-14T21:02:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deposit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hermoine Granger]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[31459]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="Test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:Test.TaskII@1e397ed7]" name="Test3" duration-ms="14648" started-at="2021-02-14T21:02:49Z" data-provider="getTestData" finished-at="2021-02-14T21:03:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Withdraw]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hermoine Granger]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[31459]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="Test4(java.lang.Object, java.util.Map)[pri:4, instance:Test.TaskII@1e397ed7]" name="Test4" duration-ms="14098" started-at="2021-02-14T21:03:04Z" data-provider="getJSonTestData" finished-at="2021-02-14T21:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deposit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"Amount":"31459","CustomerName":"Harry Potter","AccountNumber":"1004"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="Test4(java.lang.Object, java.util.Map)[pri:4, instance:Test.TaskII@1e397ed7]" name="Test4" duration-ms="14261" started-at="2021-02-14T21:03:18Z" data-provider="getJSonTestData" finished-at="2021-02-14T21:03:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Withdraw]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"Amount":"31459","CustomerName":"Harry Potter","AccountNumber":"1004"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:Test.TaskII@1e397ed7]" name="tearDownTest" is-config="true" duration-ms="776" started-at="2021-02-14T21:03:33Z" finished-at="2021-02-14T21:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Test.TaskII@1e397ed7]" name="tearDownClass" is-config="true" duration-ms="321" started-at="2021-02-14T21:03:33Z" finished-at="2021-02-14T21:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Test.TaskII -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
