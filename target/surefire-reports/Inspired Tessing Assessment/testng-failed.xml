@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Inspired Tessing Assessment]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="Task 2(failed)">
+    <classes>
+      <class name="Test.TaskII">
+        <methods>
+          <include name="Test3"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownTest"/>
+          <include name="setUpTest"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- Test.TaskII -->
+      <class name="Test.TaskI">
+        <methods>
+          <include name="start_test"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Test.TaskI -->
+    </classes>
+  </test> <!-- Task 2(failed) -->
+</suite> <!-- Failed suite [Inspired Tessing Assessment] -->
